@@ -3,114 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <title>Escape.</title>
+ 
+ 
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-  <header class="header">
+  <header class="header"> 
     <div class="header__blok">
-      <span class="header__span">Escape.</span>
-      <nav class="header-nav">
-        <a href="#" class="header-nav__a">Home</a>
-        <a href="#" class="header-nav__a">Categories</a>
-        <a href="#" class="header-nav__a">About</a>
-        <a href="#" class="header-nav__a">Contact</a>
+      <span class="span">Escape.</span>
+      <nav class="blok-nav header__blok-nav">
+        <a href="#" class="blok-nav__a">Home</a>
+        <a href="#" class="blok-nav__a">Categories</a>
+        <a href="#" class="blok-nav__a">About</a>
+        <a href="#" class="blok-nav__a">Contact</a>
       </nav>
     </div>
-    <h1 class="header__h1">Let's do it together.</h1>
-    <p class="header__p">We travel the world in search of stories. Come along for the ride.</p>
-    <button class="header__button">View Latest Posts</button>
+    <h1 class="h1 header__h1">Let's do it together.</h1>
+    <p class="p header__p">We travel the world in search of stories. Come along for the ride.</p>
+    <button class="button header__button">View Latest Posts</button>
   </header>
-  <nav class="nav">
-    <a href="#" class="nav__a">Nature</a>
-    <a href="#" class="nav__a">Photography</a>
-    <a href="#" class="nav__a">Relaxation</a>
-    <a href="#" class="nav__a">Vacation</a>
-    <a href="#" class="nav__a">Travel</a>
-    <a href="#" class="nav__a">Adventure</a>
+  <nav class="body__nav">
+    <a href="#" class="link">Nature</a>
+    <a href="#" class="link">Photography</a>
+    <a href="#" class="link">Relaxation</a>
+    <a href="#" class="link">Vacation</a>
+    <a href="#" class="link">Travel</a>
+    <a href="#" class="link">Adventure</a>
   </nav>
   <main class="main">
-    <h2 class="main-section-top__h2">Featured Posts</h2>
-    <section class="main-section-top">
-      <div class="main-section__row main-section__row_left">
-        <h3 class="main-section__row_h3">The Road Ahead</h3>
-        <p class="main-section__row_p">The road ahead might be paved - it might not be.</p>
-        <div class="main-section-top__author">
-          <img class="main-section-top__author_img" src="img/mat_vogels.png" alt="Mat Vogels photo">
-          <span class="main-section-top__author_neme">Mat Vogels</span>
-          <span class="main-section-top__author_date">September 25, 2015</span>
+    <h2 class="h2 main__h2">Featured Posts</h2>
+    <section class="main__section-top">
+      <div class="featured-posts__main featured-posts__main_left">
+        <h3 class="h3 featured-posts__h3">The Road Ahead</h3>
+        <p class="post-p featured-posts__post-p">The road ahead might be paved - it might not be.</p>
+        <div class="author featured-posts__author">
+          <img src="img/mat_vogels.png" alt="Mat Vogels photo">
+          <span class="author__author-neme">Mat Vogels</span>
+          <span class="author__date">September 25, 2015</span>
         </div>
       </div>
-      <div class="main-section__row main-section__row_right">
-        <span class="main-section__row_span">ADVENTURE</span>
-        <h3 class="main-section__row_h3">From Top Down</h3>
-        <p class="main-section__row_p">Once a year, go someplace you’ve never been before.</p>
-        <div class="main-section-top__author">
-          <img class="main-section-top__author_img" src="img/william_wong.png" alt="William Wong photo">
-          <span class="main-section-top__author_neme">William Wong</span>
-          <span class="main-section-top__author_date">September 25, 2015</span>
+      <div class="featured-posts__main featured-posts__main_right">
+        <button class="button featured-posts__button">ADVENTURE</button>
+        <h3 class="h3 featured-posts__h3">From Top Down</h3>
+        <p class="post-p featured-posts__post-p">Once a year, go someplace you’ve never been before.</p>
+        <div class="author featured-posts__author">
+          <img src="img/william_wong.png" alt="William Wong photo">
+          <span class="author__author-neme">William Wong</span>
+          <span class="author__date">September 25, 2015</span>
         </div>
       </div>
     </section>
-    <section>
-      <h2 class="main-section-top__h2">Most Recent</h2>
-      <div>
-        <img class="section-columns__img" src="img/still_standing_tall.jpg" alt="cappadocia balloons">
-        <h3>Still Standing Tall</h3>
-        <p>Life begins at the end of your comfort zone.</p>
-        <img src="/img/william_wong.png" alt="William Wong photo">
-        <span>William Wong</span>
-        <span>9/25/2015</span>
+    <h2 class="h2 main__h2 main__h2_second">Most Recent</h2>
+    <section class="section-lower">
+      <div class="card card__lower">
+        <img class="card-img card__card-img" src="img/still_standing_tall.jpg" alt="cappadocia balloons">
+        <h3 class="card-h3 card__card-h3">Still Standing Tall</h3>
+        <p class="card-p card__card-p">Life begins at the end of your comfort zone.</p>
+        <div class="author card__author card__author_lower">
+          <img class="author__img-card" src="/img/william_wong.png" alt="William Wong photo">
+          <span class="author__card-neme author__card-neme_font">William Wong</span>
+          <span class="author__card-date">9/25/2015</span>
+        </div>
       </div>
-      <div>
-        <img class="section-columns__img" src="/img/sunny_side_up.png" alt="Golden Gate Bridge">
-        <h3>Sunny Side Up</h3>
-        <p>No place is ever as bad as they tell you it’s going to be.</p>
-        <img src="/img/mat_vogels.png" alt="Mat Vogels photo">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
+      <div class="card card__lower">
+        <img class="card-img card__card-img" src="/img/sunny_side_up.png" alt="Golden Gate Bridge">
+        <h3 class="card-h3 card__card-h3">Sunny Side Up</h3>
+        <p class="card-p card__card-p">No place is ever as bad as they tell you it’s going to be.</p>
+        <div class="author card__author card__author_lower">
+          <img class="author__img-card" src="/img/mat_vogels.png" alt="Mat Vogels photo">
+          <span class="author__card-neme author__card-neme_font">Mat Vogels</span>
+          <span class="author__card-date">9/25/2015</span>
+        </div> 
       </div>
-      <div>
-        <img class="section-columns__img" src="/img/water_falls.png" alt="lake in the early morning">
-        <h3>Water Falls</h3>
-        <p>We travel not to escape life, but for life not to escape us.</p>
-        <img src="/img/mat_vogels.png" alt="Mat Vogels photo">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
+      <div class="card card__lower">
+        <img class="card-img card__card-img" src="/img/water_falls.png" alt="lake in the early morning">
+        <h3 class="card-h3 card__card-h3">Water Falls</h3>
+        <p class="card-p card__card-p">We travel not to escape life, but for life not to escape us.</p>
+        <div class="author card__author card__author_lower">
+          <img class="author__img-card" src="/img/mat_vogels.png" alt="Mat Vogels photo">
+          <span class="author__card-neme author__card-neme_font">Mat Vogels</span>
+          <span class="author__card-date">9/25/2015</span>
+        </div>
       </div>
-      <div>
-        <img src="/img/through_the_mist.png" alt="the waves">
-        <h2>Through the Mist</h2>
-        <p>Travel makes you see what a tiny place you occupy in the world.</p>
-        <img src="img/william_wong.png" alt="William Wong photo">
-        <span>William Wong</span>
-        <span>9/25/2015</span>
+      <div class="card card__lower">
+        <img class="card-img card__card-img" src="/img/through_the_mist.png" alt="the waves">
+        <h3 class="card-h3 card__card-h3">Through the Mist</h3>
+        <p class="card-p card__card-p">Travel makes you see what a tiny place you occupy in the world.</p>
+        <div class="author card__author card__author_lower">
+          <img class="author__img-card" src="/img/william_wong.png" alt="William Wong photo">
+          <span class="author__card-neme author__card-neme_font">William Wong</span>
+          <span class="author__card-date">9/25/2015</span>
+        </div>
       </div>
-      <div>
-        <img src="/img/awaken_early.png" alt="funicular">
-        <h2>Awaken Early</h2>
-        <p>Not all those who wander are lost.</p>
-        <img src="/img/mat_vogels.png" alt="Wat Vogels photo">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
+      <div class="card card__lower">
+        <img class="card-img card__card-img" src="/img/awaken_early.png" alt="funicular">
+        <h3 class="card-h3 card__card-h3">Awaken Early</h3>
+        <p class="card-p card__card-p">Not all those who wander are lost.</p>
+        <div class="author card__author card__author_lower">
+          <img class="author__img-card" src="/img/mat_vogels.png" alt="Mat Vogels photo">
+          <span class="author__card-neme author__card-neme_font">Mat Vogels</span>
+          <span class="author__card-date">9/25/2015</span>
+        </div>
       </div>
-      <div>
-        <img src="/img/try_it_always.png" alt="Waterfall">
-        <h2>Try it Always</h2>
-        <p>The world is a book, and those who do not travel read only one page.</p>
-        <img src="/img/mat_vogels.png" alt="Wat Vogels photo">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
+      <div class="card card__lower">
+        <img class="card-img card__card-img" src="/img/try_it_always.png" alt="Waterfall">
+        <h3 class="card-h3 card__card-h3">Try it Always</h3>
+        <p class="card-p card__card-p">The world is a book, and those who do not travel read only one page.</p>
+        <div class="author card__author card__author_lower">
+          <img class="author__img-card" src="/img/mat_vogels.png" alt="Mat Vogels photo">
+          <span class="author__card-neme author__card-neme_font">Mat Vogels</span>
+          <span class="author__card-date">9/25/2015</span>
+        </div>
       </div>
-    </section>
-    <footer>
-      <span>Escape.</span>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Categories</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </nav>
-    </footer>
+    </section>    
+    <footer class="footer main__footer">
+      <h2 class="h2 main__h2 main__h2_footer">Stay in Touch</h2>
+      <form class="form footer__form" action="#" >
+        <input class="form-email" type="text" name="email"  placeholder="Enter your email address" size="50" >
+        <input class="form-submit"  type="submit" value="submit"> 
+      </form>
+      <div class="footer__container">
+        <div class="blok footer__blok footer__blok_background">
+          <span class="span footer__span">Escape.</span>
+          <nav class="blok-nav footer__blok-nav">
+            <a href="#" class="blok-nav__a blok-nav__a_fotter">Home</a>
+            <a href="#" class="blok-nav__a blok-nav__a_fotter">Categories</a>
+            <a href="#" class="blok-nav__a blok-nav__a_fotter">About</a>
+            <a href="#" class="blok-nav__a blok-nav__a_fotter">Contact</a>
+          </nav>
+        </div> 
+      </div>
+      </footer>
   </main> 
 </body>
 </html>
