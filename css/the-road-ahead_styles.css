@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 *
 {
     box-sizing: border-box;
@@ -8,12 +5,7 @@
     padding: 0;    
 }
 
-.body
-{
-    max-width: 100%;
-}
-
-.header__blok
+.header
 {
     display: flex;
     justify-content: space-between;
@@ -24,21 +16,11 @@
     height: 74px;
 }
 
-.span
+.logo
 {
-    font: 26px/1'Lora', serif;
+    font: 26px 'Lora', serif;
     color: #2E2E2E;
-}
-
-.header__span
-{
     margin-top: 3px;  
-}
-
-.blok-nav
-{
-    font: 12px/1.66 'Oxygen', sans-serif;
-
 }
 
 .header__blok-nav
@@ -46,90 +28,67 @@
     margin-top: 10px;
 }
 
-.blok-nav__a
+.pages
 {
+    font: 12px/1.66 'Oxygen', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     color: #2E2E2E;
-    margin: 0 19px;
-    letter-spacing: 0.6px;  
+    letter-spacing: 0.6px; 
 }
 
+.blok-nav__pages
+{
+    margin: 0 19px; 
+}
 
 .main
 {
     max-width: 100%;
 }
 
-.heading
-{
-    font: 50px/1.02'Lora', serif;
-    line-height: 51px;
-    letter-spacing: 2px;
-    color: #2E2E2E;
-}
-
 .main__heading
 {
+    font: 50px/1.02 'Lora', serif;
+    letter-spacing: 2px;
+    color: #2E2E2E;
     display: flex;
     justify-content: center;
     margin: 0 auto 20px;
 }
 
-.subtitle
+.main__subtitle
 {
     font: 17px/1.17 'Oxygen', sans-serif;
     color: rgba(46, 46, 46, 0.63);
-}
-
-.main__subtitle
-{
     display: flex;
     justify-content: center;
     margin: 0 auto 113px;    
 }
 
-
-
 .main__img
 {
-   max-width: 100%;
+   width: 100%;
    display: flex;
    justify-content: center;
    flex-direction: column;
    margin: 0 auto 140px;  
-
-}
-
-.content
-{
-    font: 24px/1.45 'Oxygen', sans-serif;
-    /*background: url(/img/the_road_ahead.png) no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    padding-bottom: 157px; */
-    
 }
 
 .main__content
 {
     max-width: 960px;
-    /*display: flex;
-    /*justify-content: center;
-    flex-direction: column;*/
     margin:0  auto;
-    padding: 0
-
 }
 
-.main__p
+.main__text
 {
+   font: 400 24px/1.45 'Oxygen', sans-serif; 
    display: flex;
    justify-content: center;
    margin-bottom: 36px;
+   color: #101315;
 }
-
-/*--------------------------footer-----------------------------------------------*/
 
 .footer
 {
@@ -143,48 +102,52 @@
    margin-top: 108px; 
 }
 
-.h2
+.chapter
 {
-    font: 25px/1.2 'Oxygen', sans-serif;
-    color: #EFEFEF;
-    
-}
-
-.footer__h2
-{
+    font: 20px/0.74 'Oxygen', sans-serif;
+    letter-spacing: 2px;
+    color: #2E2E2E;
     padding-top: 65px;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid  #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
     padding-bottom: 16px;
     width: 188px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 23px; 
 }
 
-
-
-.form-email
+.chapter_font
 {
-    border-radius: 3px 0px 0px 3px;
-    border: none;
-    width: 375px;
-    height: 50px;
-    padding-left: 35px;
-}
- 
-.form-submit
-{
-    background: rgba(255, 255, 255, 0.28);
-    border-radius: 0px 3px 3px 0px;
-    border: none;
-    width: 125px;
-    height: 50px;
+    font: 25px/1.2 'Oxygen', sans-serif;
+    color: #EFEFEF;
+    margin-bottom: 20px;
+    letter-spacing: 0;
 }
 
 .footer__form
 {
     text-align: center;
     margin-bottom: 89px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__email
+{
+    border-radius: 3px 0 0 3px;
+    border: none;
+    width: 375px;
+    height: 50px;
+    padding-left: 35px;
+}
+ 
+.form__submit
+{
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0 3px 3px 0;
+    border: none;
+    width: 125px;
+    height: 50px;
 }
 
 .footer__container
@@ -204,14 +167,10 @@
     height: 74px;
 }
 
-.footer__span
+.footer__logo
 {
-    margin-top: 3px;  
-}
-
-.footer__span_color
-{
-    color: #FFFFFF;
+    margin-top: 3px;
+    color: #FFFFFF;  
 }
 
 .footer__blok-nav
@@ -219,10 +178,10 @@
     margin-top: 10px; 
 }
 
-.blok-nav__a_fotter
+.footer__pages
 {
+    margin: 0 5px;
     font: 11px/2.36 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 0.6);
-    letter-spacing: 1px;
-    margin: 0 5px;  
+    letter-spacing: 1px;  
 }
